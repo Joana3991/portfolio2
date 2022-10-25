@@ -1,10 +1,54 @@
-.footer {
-  bottom: 0;
-  width: 100%;
+footer {
+  border-top: 2px solid white;
   height: 30vh;
-  background: linear-gradient(to bottom, black, black);
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border-top: 2px solid white; */
+  // background: linear-gradient(to bottom, black, black);
+}
+
+.contact {
+  position: relative;
+  display: flex;
+  li {
+    position: relative;
+    list-style: none;
+    margin: 10px;
+  }
+  a {
+    position: relative;
+    top: 0;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid rgba(255,255,255,0.8);
+    border-right: 3px solid rgba(255,255,255,0.4);
+    border-bottom: 3px solid rgba(255,255,255,0.4);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+    // box-shadow: 0 5px 45px rgba(255, 255, 255, 0.2);
+  }
+  a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    transform: skewX(45deg) translate(150px);
+    transition: 0.6s;
+  }
+  a:hover:before {
+    transform: skewX(45deg) translate(-150px);
+  }
+  // obs: nao fiz efeitos de transicao para subir quando hover
 }
