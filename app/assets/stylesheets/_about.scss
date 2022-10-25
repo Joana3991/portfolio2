@@ -1,0 +1,22 @@
+.about-section{
+  height: 100vh;
+  .about-text{
+    color: whitesmoke;
+    margin-top: 20vh;
+    margin-left: 40vh;
+    width: 70%;
+  }
+  h3{
+  font-size: 3em;
+  font-family: 'Island Moments', cursive;
+  margin-bottom: 0;
+  }
+  p{
+  font-size: 1.5em;
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  border: 2px solid white;
+  padding: 20px;
+  }
+}
