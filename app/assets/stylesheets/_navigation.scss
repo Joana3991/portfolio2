@@ -1,0 +1,22 @@
+#toggle{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+#toggle:before{
+  content: '';
+  position: absolute;
+  top: 7px;
+  width: 100%;
+  height: 2px;
+  background: white;
+}
+#toggle:after{
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 100%;
+  height: 3px;
+  background: white;
+}

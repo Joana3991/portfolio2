@@ -22,5 +22,11 @@
 
   <body>
     <%= yield %>
+    <script>
+      function toggle(){
+        let sec = document.getElementById('sec');
+        sec.classList.toggle('active');
+      }
+    </script>
   </body>
 </html>

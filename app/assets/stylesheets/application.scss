@@ -2,11 +2,14 @@
 @import "about";
 @import "projects";
 @import "footer";
+@import "navigation";
+
 
 
 
 body{
   background-color: #010101;
+  color: white;
 }
 h3{
   font-size: 3em;

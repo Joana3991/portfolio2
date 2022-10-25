@@ -31,14 +31,3 @@
     left: -80px;
   }
 }
-//effect foggy between banner picture and next section
-.about-section:before{
-  content: '';
-  position: absolute;
-  bottom: -100px;
-  left: 0;
-  width: 100%;
-  height: 200px;
-  z-index: 1;
-  background-image: linear-gradient(transparent, black);
-}
