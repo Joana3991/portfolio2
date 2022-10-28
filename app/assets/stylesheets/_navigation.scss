@@ -1,12 +1,17 @@
-#menu{
-  position: absolute;
+.menu {
+
+}
+
+#menuIcon{
+  position: fixed;
   top: 5vh;
   left: 5vh;
   width: 30px;
   height: 30px;
+  z-index: 1;
   cursor: pointer;
 }
-#menu:before{
+#menuIcon:before{
   content: '';
   position: absolute;
   top: 7px;
@@ -14,7 +19,7 @@
   height: 2px;
   background: white;
 }
-#menu:after{
+#menuIcon:after{
   content: '';
   position: absolute;
   bottom: 7px;
@@ -23,15 +28,52 @@
   background: white;
 }
 
-.active#menu:before{
+.active#menuIcon:before{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
-.active#menu:after{
+.active#menuIcon:after{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
 
-// transform: translate(300px);
+// transform: translate(300px); -> para mover o banner pra direita
+#menuBox{
+  position: fixed;
+  z-index: 1;
+  top: 9vh;
+  left: 5vh;
+  width: 220px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+
+  ul{
+    padding: 20px;
+    height: 70%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  li{
+    font-size: 1.5em;
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    opacity: 0.8;
+  }
+  a:hover{
+    opacity: 1;
+  }
+}
