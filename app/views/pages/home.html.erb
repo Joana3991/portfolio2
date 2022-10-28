@@ -18,8 +18,7 @@
 
 
 <section class="about-section">
-
-  <%= image_tag "profile", alt: "profile picture", class: "profilepic"  %>
+  <%= image_tag "profile", alt: "Profile Picture", class: "profilepic"  %>
   <div class="about-text">
     <h3>About me</h3>
     <div class="description">
@@ -35,26 +34,29 @@
 <section class="projects-section">
   <h3 id="title">My latest projects:</h3>
   <div class="cards">
+    <!--card 01 - Karuna -->
     <div class="card">
       <%# <h2>01</h2> %>
       <div class="img">
-        <%= image_tag "coverKaruna.png", alt: "Le Wagon", class:'karuna' %>
+        <%= image_tag "coverKaruna.png", alt: "Karunas image", class:'karuna' %>
       </div>
       <div class="content">
         <h3 id="teste">Karuna</h3>
-        <%= image_tag "karunaicon.ico", alt: "Le Wagon", class:'icon' %>
+        <%= image_tag "karunaicon.ico", alt: "Karunas icon", class:'icon' %>
+      </div>
 
         <%# <p>my info about the card</p> %>
         <%# <a href="https://karuna-app.herokuapp.com">Visit project</a> %>
-      </div>
     </div>
+    <!--card 02 - GW -->
     <div class="card">
+      <div class="img">
+        <%= image_tag "coverGW.png", alt: "Green Wheelers image", class:'greenwheeler' %>
+      </div>
       <div class="content">
-        <%# <h2>02</h2> %>
-        <%= image_tag "gwicon.png", alt: "Le Wagon", class:'icon2' %>
-        <h3>GreenWheeler</h3>
-        <p>my info about the card</p>
-        <a href="https://greenwheeler.herokuapp.com">Visit project</a>
+        <h3 id="teste">GreenWheeler</h3>
+        <%= image_tag "gwicon.png", alt: "Green Wheelers icon", class:'icon2' %>
+        <%# <a href="https://greenwheeler.herokuapp.com">Visit project</a> %>
       </div>
     </div>
   </div>
