@@ -10,17 +10,21 @@
     width: 70%;
   }
   h3{
-  font-size: 3em;
-  font-family: 'Island Moments', cursive;
-  margin-bottom: 0;
+    font-size: 3em;
+    font-family: 'Island Moments', cursive;
+    margin-bottom: 0;
+  }
+  .description{
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 80%;
   }
   p{
-  font-size: 1.5em;
-  text-align: justify;
-  font-family: 'Lato', sans-serif;
-  letter-spacing: 1px;
-  border: 2px solid white;
-  padding: 20px;
+    line-height: 120%;
   }
 }
 
