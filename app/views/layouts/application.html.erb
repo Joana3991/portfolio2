@@ -24,8 +24,10 @@
     <%= yield %>
     <script>
       function toggleMenu(){
-        const target = document.getElementById('menuIcon');
-        target.classList.toggle('active');
+        const menuIcon = document.getElementById('menuIcon');
+        const menuBox = document.getElementById('menuBox');
+        menuIcon.classList.toggle('active');
+        menuBox.classList.toggle('active');
       }
     </script>
   </body>
