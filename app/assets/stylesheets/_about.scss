@@ -24,7 +24,7 @@
     width: 80%;
   }
   p{
-    line-height: 120%;
+    line-height: 130%;
   }
 }
 
@@ -38,4 +38,10 @@
   height: 200px;
   z-index: 1;
   background-image: linear-gradient(transparent, black);
+}
+
+.profilepic{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
 }
