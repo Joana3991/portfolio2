@@ -49,15 +49,17 @@
         <%# <a href="https://karuna-app.herokuapp.com">Visit project</a> %>
     </div>
     <!--card 02 - GW -->
-    <div class="card">
-      <div class="img">
-        <%= image_tag "coverGW.png", alt: "Green Wheelers image", class:'greenwheeler' %>
-      </div>
-      <div class="content">
-        <h3 id="teste">GreenWheeler</h3>
-        <%= image_tag "gwicon.png", alt: "Green Wheelers icon", class:'icon2' %>
-        <%# <a href="https://greenwheeler.herokuapp.com">Visit project</a> %>
-      </div>
+    <%= link_to "https://greenwheeler.herokuapp.com" do %>
+      <div class="card">
+        <div class="img">
+          <%= image_tag "coverGW.png", alt: "Green Wheelers image", class:'greenwheeler' %>
+        </div>
+        <div class="content">
+          <h3 id="teste">GreenWheeler</h3>
+          <%= image_tag "gwicon.png", alt: "Green Wheelers icon", class:'icon2' %>
+          <%# <a href="https://greenwheeler.herokuapp.com">Visit project</a> %>
+        </div>
+      <% end %>
     </div>
   </div>
 </section>
