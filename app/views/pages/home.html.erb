@@ -2,8 +2,8 @@
   <div id="menuIcon" onclick="toggleMenu()"></div>
   <div id="menuBox">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
+      <li><a href="#banner">Home</a></li>
+      <li><a href="#about-section">About</a></li>
       <li><a href="#">Projects</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
@@ -21,7 +21,7 @@
 
 
 
-<section class="about-section">
+<section id="about-section">
   <%= image_tag "profile.png", alt: "Profile Picture", class: "profilepic"  %>
   <div class="about-text">
     <h3>About me</h3>
@@ -35,7 +35,7 @@
 </section>
 
 
-<section class="projects-section">
+<section id="projects-section">
   <h3 id="title">My latest projects:</h3>
   <div class="cards">
     <!--card 01 - Karuna -->
@@ -70,7 +70,7 @@
 
 
 
-<footer>
+<footer id="footer">
   <h3>Find me...</h3>
   <div class="contact">
     <a href="https://github.com/Joana3991" target="_blank"> <i class="fa-brands fa-github"></i> </a>

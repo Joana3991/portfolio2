@@ -1,4 +1,4 @@
-.about-section{
+#about-section{
   // height: 100vh;
   background: linear-gradient(black, rgba(3,3,15,0.9));
   margin-bottom: 0;
@@ -33,7 +33,7 @@
 }
 
 //effect foggy between banner picture and next section
-.about-section:before{
+#about-section:before{
   content: '';
   position: absolute;
   bottom: -100px;
