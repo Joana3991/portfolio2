@@ -40,30 +40,27 @@
   <h3 id="title">My latest projects:</h3>
   <div class="cards">
     <!--card 01 - Karuna -->
-    <div class="card">
-      <%# <h2>01</h2> %>
-      <div class="img">
-        <%= image_tag "coverKaruna.png", alt: "Karunas image", class:'karuna' %>
-      </div>
-      <div class="content">
-        <h3 id="teste">Karuna</h3>
-        <%= image_tag "karunaicon.ico", alt: "Karunas icon", class:'icon' %>
-      </div>
-
-        <%# <p>my info about the card</p> %>
-        <%# <a href="https://karuna-app.herokuapp.com">Visit project</a> %>
-    </div>
-    <!--card 02 - GW -->
-    <%= link_to "https://greenwheeler.herokuapp.com" do %>
+    <%= link_to "https://karuna-app.herokuapp.com" do %>
       <div class="card">
+        <%# <h2>01</h2> %>
+        <div class="img">
+          <%= image_tag "coverKaruna.png", alt: "Karunas image", class:'karuna' %>
+        </div>
+        <div class="content">
+          <h3 class="project-name">Karuna</h3>
+          <%= image_tag "karunaicon.ico", alt: "Karunas icon", class:'icon' %>
+        </div>
+      </div>
+    <% end %>
+    <!--card 02 - GW -->
+    <%= link_to "https://greenwheeler.herokuapp.com", class:"card" do %>
         <div class="img">
           <%= image_tag "coverGW.png", alt: "Green Wheelers image", class:'greenwheeler' %>
         </div>
         <div class="content">
-          <h3 id="teste">GreenWheeler</h3>
+          <h3 class="project-name">GreenWheeler</h3>
           <%= image_tag "gwicon.png", alt: "Green Wheelers icon", class:'icon2' %>
         </div>
-      </div>
     <% end %>
   </div>
 </section>

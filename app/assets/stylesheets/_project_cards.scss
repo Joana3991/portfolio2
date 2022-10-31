@@ -42,7 +42,7 @@
   a{
     text-decoration: none;
   }
-  #teste{
+  .project-name{
     position: relative;
     top: -40px;
   }
@@ -52,6 +52,7 @@
   .img{
     height: 65%;
     width: 100%;
+    text-decoration: none !important;
     // background-image: url(coverKaruna);
     // background-size: cover;
 
