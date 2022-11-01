@@ -1,32 +1,18 @@
 #projects-section{
-  // border-top: 1px solid white;
-  height: 100vh;
-  h3{
-    font-size: 3em;
-    font-family: 'Island Moments', cursive;
-    margin-bottom: 0;
-    color: white;
-  }
-}
-
-#projects-section{
-  margin-top: 0;
-  // background-image:linear-gradient(rgba(0,0,15,0.9), rgba(0, 0, 15, 0.9)), url(fog.png);
-  background-image:linear-gradient(rgba(37,50,66,0.6), rgba(0, 0, 15, 0.9),), url(fog.png);
-
-  // background-image:linear-gradient(rgba(16,22,30,0.85), rgba(16,22,30,0.85),), url(fog5.png);
-  filter: contrast(1.3);
-
-  // background-image:linear-gradient(rgba(6,11,31,0.4), rgba(6, 11, 31, 0.4)), url(fog2.png);
-  // background-image:linear-gradient(rgba(32,44,57,0.2), rgba(32, 44, 57, 0.2)), url(fog2.png);
-  // background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 0.938)), url(fog.png);
   background-size: cover;
-  #title{
-    position: relative;
-    left: 8vh;
-    color: rgba(255,255,255, 0.6);
+  margin-top: 0;
+  background-image:linear-gradient(rgba(37,50,66,0.6), rgba(0, 0, 15, 0.9),), url(fog.png);
+  filter: contrast(1.3);
+  h3{
     margin-top: 0;
+    padding-left: 11vh;
+    padding-top: 1.5vh;
+    color: rgba(255,255,255, 0.6);
     font-size: 5em;
-    width: 50%;
   }
 }
+// background-image:linear-gradient(rgba(0,0,15,0.9), rgba(0, 0, 15, 0.9)), url(fog.png);
+// background-image:linear-gradient(rgba(16,22,30,0.85), rgba(16,22,30,0.85),), url(fog5.png);
+// background-image:linear-gradient(rgba(6,11,31,0.4), rgba(6, 11, 31, 0.4)), url(fog2.png);
+// background-image:linear-gradient(rgba(32,44,57,0.2), rgba(32, 44, 57, 0.2)), url(fog2.png);
+// background-image:linear-gradient(rgba(0,0,0,0.9), rgba(0, 0, 0, 0.938)), url(fog.png);
