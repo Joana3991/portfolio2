@@ -1,20 +1,19 @@
 @import "banner";
 @import "about";
 @import "projects";
+@import "project_cards";
 @import "footer";
 @import "menu";
-@import "project_cards";
 
 
 body{
   background-color: #010101;
   color: white;
-  // margin: 0; por e ajeitar o banner
+  margin: 0;
 }
 h3{
   font-size: 3em;
   font-family: 'Island Moments', cursive;
   margin-bottom: 0;
   color: white;
-  // obs: nao têm: footer,
 }
