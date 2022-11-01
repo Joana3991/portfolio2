@@ -20,8 +20,11 @@
 
   </head>
 
-  <body>
-    <%= yield %>
+  <body >
+    <%= yield :outside %>
+    <div class="closemenu" onclick="closeMenu()">
+      <%= yield %>
+    </div>
     <script>
       function toggleMenu(){
         const menuIcon = document.getElementById('menuIcon');

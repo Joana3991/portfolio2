@@ -1,78 +1,76 @@
-<div class="menu">
-  <div id="menuIcon" onclick="toggleMenu()"></div>
-  <div id="menuBox">
-    <ul>
-      <li><a href="#banner">Home</a></li>
-      <li><a href="#about-section">About</a></li>
-      <li><a href="#projects-section">Projects</a></li>
-      <li><a href="#footer">Contact</a></li>
-    </ul>
+<%= content_for :outside do %>
+  <div class="menu">
+    <div id="menuIcon" onclick="toggleMenu()"></div>
+    <div id="menuBox">
+      <ul>
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#projects-section">Projects</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+    </div>
   </div>
-</div>
+<% end %>
 
-<div class="closemenu" onclick="closeMenu()">
-  <section id="banner">
-    <div class="headline">
-      <h3>Portfolio by</h3>
-      <h1>Joana Sanson Arêas</h1>
-      <h2>Web Developer</h2>
+
+<section id="banner">
+  <div class="headline">
+    <h3>Portfolio by</h3>
+    <h1>Joana Sanson Arêas</h1>
+    <h2>Web Developer</h2>
+  </div>
+</section>
+
+
+<section id="about-section">
+  <div class="profilepic"></div>
+  <div class="about-text">
+    <h3>About me</h3>
+    <div class="description">
+      <p> Hi, I'm Jo 👋 !</p>
+      <p> I'm a Brazilian developer, passionate about using logic and creativity to solve complex problems.
+      After years studying low level languages, I decided to attend a Fullstack bootcamp and start my career as a developer.</p>
+      <p>I love exploring new cultures and my mission in life (besides becoming an awesome programmer) is to help animals in need.</p>
     </div>
-  </section>
+  </div>
+</section>
 
 
-  <section id="about-section">
-    <div class="profilepic">
-      <%# <%= image_tag "profile.png", alt: "Profile Picture"  %>
-    </div>
-    <div class="about-text">
-      <h3>About me</h3>
-      <div class="description">
-        <p> Hi, I'm Jo 👋 !</p>
-        <p> I'm a Brazilian developer, passionate about using logic and creativity to solve complex problems.
-        After years studying low level languages, I decided to attend a Fullstack bootcamp and start my career as a developer.</p>
-        <p>I love exploring new cultures and my mission in life (besides becoming an awesome programmer) is to help animals in need.</p>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="projects-section">
-    <h3>My latest projects:</h3>
-    <div class="cards">
-      <!--card 01 - Karuna -->
-      <%= link_to "https://karuna-app.herokuapp.com" do %>
-        <div class="card">
-          <%# <h2>01</h2> %>
-          <div class="img">
-            <%= image_tag "coverKaruna.png", alt: "Karunas image", class:'karuna' %>
-          </div>
-          <div class="content">
-            <h3 class="project-name">Karuna</h3>
-            <%= image_tag "karunaicon.ico", alt: "Karunas icon", class:'icon' %>
-          </div>
+<section id="projects-section">
+  <h3>My latest projects:</h3>
+  <div class="cards">
+    <!--card 01 - Karuna -->
+    <%= link_to "https://karuna-app.herokuapp.com" do %>
+      <div class="card">
+        <%# <h2>01</h2> %>
+        <div class="img">
+          <%= image_tag "coverKaruna.png", alt: "Karunas image", class:'karuna' %>
         </div>
-      <% end %>
-      <!--card 02 - GW -->
-      <%= link_to "https://greenwheeler.herokuapp.com", class:"card" do %>
-          <div class="img">
-            <%= image_tag "coverGW.png", alt: "Green Wheelers image", class:'greenwheeler' %>
-          </div>
-          <div class="content">
-            <h3 class="project-name">GreenWheeler</h3>
-            <%= image_tag "gwicon.png", alt: "Green Wheelers icon", class:'icon2' %>
-          </div>
-      <% end %>
-    </div>
-  </section>
+        <div class="content">
+          <h3 class="project-name">Karuna</h3>
+          <%= image_tag "karunaicon.ico", alt: "Karunas icon", class:'icon' %>
+        </div>
+      </div>
+    <% end %>
+    <!--card 02 - GW -->
+    <%= link_to "https://greenwheeler.herokuapp.com", class:"card" do %>
+        <div class="img">
+          <%= image_tag "coverGW.png", alt: "Green Wheelers image", class:'greenwheeler' %>
+        </div>
+        <div class="content">
+          <h3 class="project-name">GreenWheeler</h3>
+          <%= image_tag "gwicon.png", alt: "Green Wheelers icon", class:'icon2' %>
+        </div>
+    <% end %>
+  </div>
+</section>
 
 
-
-  <footer id="footer">
-    <h3>Find me...</h3>
-    <div class="contact">
-      <a href="https://github.com/Joana3991" target="_blank"> <i class="fa-brands fa-github"></i> </a>
-      <a href="https://www.linkedin.com/in/j-areas/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i> </a>
-      <a href="mailto:joareas@gmail.com" target="_blank"> <i class="fa-solid fa-envelope"></i> </a></i>
-    </div>
-  </footer>
-</div>
+<footer id="footer">
+  <h3>Find me...</h3>
+  <div class="contact">
+    <a href="https://github.com/Joana3991" target="_blank"> <i class="fa-brands fa-github"></i> </a>
+    <a href="https://www.linkedin.com/in/j-areas/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i> </a>
+    <a href="mailto:joareas@gmail.com" target="_blank"> <i class="fa-solid fa-envelope"></i> </a></i>
+  </div>
+</footer>
