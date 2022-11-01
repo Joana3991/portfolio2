@@ -1,45 +1,39 @@
 .cards{
-  margin-top: 20vh;
+  margin-top: 10vh;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  // background-color: #161623;
 }
 
 .card{
   position: relative;
-  width: 320px;
-  height: 450px;
   margin: 6vh;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.6);
+  width: 330px;
+  height: 460px;
   border-radius: 15px;
-  background: rgba(255, 255, 255, 0.1);
-  overflow: hidden;
-  display: flex;
-  // justify-content: center;
-  // align-items: center;
-  flex-direction: column;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px); //mudar para card 1 e 2
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  .project-img{
+    height: 75%;
+    width: 100%;
+    // background-image: url(coverKaruna);
+    // background-size: cover;
+
+  }
 }
 
 .content{
   padding: 20px;
   text-align: center;
   transition: 0.5s;
-  h2{
-    position: absolute;
-    top: -40px;
-    right: 30px;
-    font-size: 8em;
-    color: rgba(255, 255, 255, 0.1);
-    pointer-events: none;
-    background-image: url(favicon.ico);
-    background-size: cover;
-  }
-
   .project-name{
     position: relative;
     top: -40px;
@@ -47,14 +41,6 @@
 }
 
 .card{
-  .img{
-    height: 65%;
-    width: 100%;
-    text-decoration: none !important;
-    // background-image: url(coverKaruna);
-    // background-size: cover;
-
-  }
   .karuna{
     padding: 5px;
     height: 100%;
@@ -89,6 +75,9 @@
 }
 
 .card{
-  box-shadow: 1px 1px 1px white;
-  text-decoration: none !important;
+  h4{
+    font-family: 'Island Moments', cursive;
+    color: white;
+    font-size: 2em;
+  }
 }

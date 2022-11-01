@@ -1,7 +1,7 @@
 @import "banner";
 @import "about";
 @import "projects";
-@import "project_cards";
+@import "project_card";
 @import "footer";
 @import "menu";
 
@@ -15,7 +15,6 @@ h3{
   font-size: 3em;
   font-family: 'Island Moments', cursive;
   margin-bottom: 0;
-  color: white;
 }
 a{
   text-decoration: none;
