@@ -21,7 +21,7 @@
   flex-direction: column;
   // justify-content: center;
   // align-items: center;
-  .project-img{
+  .project-imgBx{
     height: 60%;
     width: 100%;
     // background-image: url(coverKaruna);
@@ -38,7 +38,14 @@
   }
 }
 
-
+.project-img{
+  padding: 5px;
+  height: 100%;
+  width: 97%;
+  border-radius: 15px;
+  overflow: hidden;
+  opacity: 0.9;
+}
 .project-name{
   font-family: 'Island Moments', cursive;
   font-size: 3.3em;
@@ -55,24 +62,4 @@
   width: 70px;
   height: 70px;
   opacity: 0.5;
-}
-
-
-.card{
-  .karuna{
-    padding: 5px;
-    height: 100%;
-    width: 97%;
-    border-radius: 15px;
-    overflow: hidden;
-    opacity: 0.7;
-  }
-  .greenwheeler{
-    padding: 5px;
-    height: 100%;
-    width: 97%;
-    border-radius: 15px;
-    overflow: hidden;
-    opacity: 0.7;
-  }
 }
