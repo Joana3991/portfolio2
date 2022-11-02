@@ -50,9 +50,17 @@
   background-position: center;
 }
 
-// @media (max-width: 800px){
-//   .profilepic{
-//     width: 150px;
-//     height: 150px;
-//   }
-// }
+@media (max-width: 414px){
+  .profilepic{
+    width: 35vh;
+    height: 35vh;
+  }
+  #about-section .about-text{
+    width: 85%;
+    font-size: smaller;
+  }
+  p{
+    letter-spacing: normal;
+    margin-top: 3px;
+  }
+}
