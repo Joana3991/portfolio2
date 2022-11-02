@@ -4,12 +4,12 @@
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-
   .about-text{
     color: white;
-    margin: 5vh 0 20vh;
+    // margin: 5vh 0 20vh;
+    margin-bottom: 20vh;
     width: 70%;
   }
   .description{
@@ -39,8 +39,8 @@
 }
 
 .profilepic{
-  width: 350px;
-  height: 350px;
+  width: 38vh;
+  height: 38vh; // 350px before
   border-radius: 50%;
   align-self: center;
   margin-top: 5vh;
@@ -49,3 +49,10 @@
   background-size: 115%;
   background-position: center;
 }
+
+// @media (max-width: 800px){
+//   .profilepic{
+//     width: 150px;
+//     height: 150px;
+//   }
+// }
