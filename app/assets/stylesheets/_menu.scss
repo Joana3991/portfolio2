@@ -78,3 +78,18 @@
 
 //TODO improments: add transition effect, better hover
 // transform: translate(300px); -> para mover o banner pra direita
+
+@media (max-width: 414px) {
+  #menuBox{
+    margin-top: 10px;
+    width: 180px;
+    height: 220px;
+    ul{
+      padding: 10px;
+      height: 80%;
+    }
+    li{
+      font-size: 1.2em;
+    }
+  }
+}
