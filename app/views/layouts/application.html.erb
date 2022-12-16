@@ -20,13 +20,13 @@
 
   </head>
 
-  <body >
+  <body>
     <%= yield :outside %>
     <div class="closemenu" onclick="closeMenu()">
       <%= yield %>
     </div>
     <script>
-      function toggleMenu(){
+      function openMenu(){
         const menuIcon = document.getElementById('menuIcon');
         const menuBox = document.getElementById('menuBox');
         menuIcon.classList.toggle('active');
@@ -38,11 +38,13 @@
         menuIcon.classList.remove('active');
         menuBox.classList.remove('active');
       }
+
+      //to change language
       const ptIcon = document.getElementById('pt');
       const enIcon = document.getElementById('en');
-
       const enElements = document.querySelectorAll('.english');
       const ptElements = document.querySelectorAll('.portuguese');
+
       function changeLanguage (){
         enElements.forEach (element => {
           element.classList.toggle('hidden');
