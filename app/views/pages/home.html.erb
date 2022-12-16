@@ -10,8 +10,8 @@
       </ul>
     </div>
   </div>
-  <p class="language-icon english">PT</p>
-  <p class="language-icon portuguese hidden">EN</p>
+  <p class="language-icon english" id="pt">PT</p>
+  <p class="language-icon portuguese hidden" id="en">EN</p>
 
 <% end %>
 
@@ -30,7 +30,7 @@
 <section id="about-section">
   <div class="profilepic"></div>
   <div class="about-text">
-    <h3>About me</h3>
+    <h3 class="english">About me</h3>
     <h3 class="portuguese hidden">Sobre mim</h3>
     <div class="description">
       <p class="english"> Hi, I'm Jo 👋 !</p>
@@ -61,8 +61,8 @@
       <div class="content">
         <h4 class="project-name">Karuna</h3>
         <%= image_tag "karunaicon.ico", alt: "Karuna's icon", class:'iconK' %>
-        <p class="english hidden">Karuna is a free platform created to connect volunteers to projects with meaningful impact.</p>
-        <p class="portuguese hidden">Karuna é uma plataforma gratuita para conectar voluntários a projetos com impactos significativos.</p>
+        <%# <p class="english hidden">Karuna is a free platform created to connect volunteers to projects with meaningful impact.</p> %>
+        <%# <p class="portuguese hidden">Karuna é uma plataforma gratuita para conectar voluntários a projetos com impactos significativos.</p> %>
       </div>
     <% end %>
     <!--card 02 - GW -->
@@ -73,8 +73,8 @@
       <div class="content">
         <h4 class="project-name">GreenWheeler</h3>
         <%= image_tag "gwicon.png", alt: "Green Wheeler's icon", class:'iconGW' %>
-        <p class="english hidden">Green Wheeler is an Airbnb like marketplace for sustainable transportation anywhere around the world.</p>
-        <p class="portuguese hidden">Green Wheeler é marketplace estilo Airbnb like para transportes sustentáveis em qualquer lugar do mundo.</p>
+        <%# <p class="english hidden">Green Wheeler is an Airbnb like marketplace for sustainable transportation anywhere around the world.</p> %>
+        <%# <p class="portuguese hidden">Green Wheeler é marketplace estilo Airbnb like para transportes sustentáveis em qualquer lugar do mundo.</p> %>
 
       </div>
     <% end %>
